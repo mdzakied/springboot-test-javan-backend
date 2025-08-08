@@ -20,7 +20,7 @@ Flow for testing authentication:
   Endpoint to verify access token. Requires a valid Bearer token. Checks if the token is valid or invalid.
 
 - **`login`**  **`(username = user, password = user)`**  
-  Endpoint to authenticate tuser get access token and refresh token. Use the access token to access `test-access`, and the refresh token to `refresh-tokens`.
+  Endpoint to authenticate user get access token and refresh token. Use the access token to access `test-access`, and the refresh token to `refresh-tokens`.
 
 - **`refresh-token`**  
   Endpoint to get new access and refresh tokens using a valid refresh token.
